@@ -7,7 +7,7 @@
 .container{
 	max-width: 950px;
     margin: 0 auto;
-    padding: 10px;
+    /* padding: 10px; */
 }
                     /* Tablet views */
                  @media(min-width:767px) and (max-width:1023px)
@@ -81,6 +81,7 @@
         grid-template-rows: 195px auto;
         grid-template-columns: 1fr;
         text-align: justify;
+        padding: 10px;
     } 
 }
               /* Tablet views */
@@ -168,6 +169,13 @@ container .main-container ul.main-menu li.active a {
 .container footer .paragraph2
 {
 	text-align: right;
+}
+@media (min-width: 320px) and (max-width: 767px)
+{
+    .container footer .paragraph2
+{
+	text-align: center;
+}
 }
 .container footer p a{
 	color:white;
