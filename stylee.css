@@ -145,7 +145,7 @@ container .main-container ul.main-menu li.active a {
 /* mobile views */
 @media (min-width: 320px) and (max-width: 767px){
 	.container footer {
-		max-width: 320px;
+		/* width: 320px; */
 		font-size: 13px;
 		text-align: justify;
 	}
